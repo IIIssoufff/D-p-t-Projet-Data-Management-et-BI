@@ -1,0 +1,1415 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2021.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Affectation_gwp$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>garments_worker_productivity.xlsx
+Query=`Affectation_gwp$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Affectation_gwp$`" type="V_String" />
+            <Field name="quarter" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Affectation_gwp$`" type="V_String" />
+            <Field name="department" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Affectation_gwp$`" type="V_String" />
+            <Field name="day" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Affectation_gwp$`" type="V_String" />
+            <Field name="team" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Affectation_gwp$`" type="Double" />
+            <Field name="no_of_workers" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Affectation_gwp$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="114" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Objectif-realisation_gwp$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>garments_worker_productivity.xlsx
+Query=`Objectif-realisation_gwp$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Objectif-realisation_gwp$`" type="V_String" />
+            <Field name="quarter" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Objectif-realisation_gwp$`" type="V_String" />
+            <Field name="department" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Objectif-realisation_gwp$`" type="V_String" />
+            <Field name="day" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Objectif-realisation_gwp$`" type="V_String" />
+            <Field name="team" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Objectif-realisation_gwp$`" type="Double" />
+            <Field name="targeted_productivity" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Objectif-realisation_gwp$`" type="V_String" />
+            <Field name="actual_productivity" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Objectif-realisation_gwp$`" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Gestiontemps_gwp$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>garments_worker_productivity.xlsx
+Query=`Gestiontemps_gwp$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Gestiontemps_gwp$`" type="V_String" />
+            <Field name="quarter" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Gestiontemps_gwp$`" type="V_String" />
+            <Field name="department" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Gestiontemps_gwp$`" type="V_String" />
+            <Field name="day" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Gestiontemps_gwp$`" type="V_String" />
+            <Field name="team" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Gestiontemps_gwp$`" type="Double" />
+            <Field name="smv" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Gestiontemps_gwp$`" type="V_String" />
+            <Field name="over_time" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Gestiontemps_gwp$`" type="Double" />
+            <Field name="idle_time" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Gestiontemps_gwp$`" type="V_String" />
+            <Field name="idle_men" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Gestiontemps_gwp$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Arret-changement_gwp$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>garments_worker_productivity.xlsx
+Query=`Arret-changement_gwp$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Arret-changement_gwp$`" type="V_String" />
+            <Field name="quarter" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Arret-changement_gwp$`" type="V_String" />
+            <Field name="department" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Arret-changement_gwp$`" type="V_String" />
+            <Field name="day" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Arret-changement_gwp$`" type="V_String" />
+            <Field name="team" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Arret-changement_gwp$`" type="Double" />
+            <Field name="wip" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Arret-changement_gwp$`" type="Double" />
+            <Field name="no_of_style_change" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Arret-changement_gwp$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings>
+        <Position x="234" y="18" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"date","quarter","department","day","team","no_of_workers"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings>
+        <Position x="690" y="882" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"date","quarter","department","day","team","wip","no_of_style_change"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Nettoyage department
+suppression espace ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Nettoyage department
+suppression espace ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="42">
+      <GuiSettings>
+        <Position x="450" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"department"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Nettoyage department
+suppression espace ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Nettoyage department
+suppression espace ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="43">
+      <GuiSettings>
+        <Position x="666" y="678" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"department","over_time","idle_time","idle_men"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Nettoyage department
+suppression espace ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Nettoyage department
+suppression espace ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="44">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2250" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="date" selected="True" />
+            <SelectField field="quarter" selected="True" description="A portion of the month. A month was divided into four quarters" />
+            <SelectField field="department" selected="True" description="Associated team number with the instance" />
+            <SelectField field="day" selected="True" description="corresponding day of the week" />
+            <SelectField field="team" selected="True" rename="team_id" type="Int16" size="2" description="Associated team number with the instance" />
+            <SelectField field="no_of_workers" selected="True" description="Number of workers in each team in minutes" />
+            <SelectField field="targeted_productivity" selected="True" description="productivity set by the authority for each team for each day" />
+            <SelectField field="actual_productivity" selected="True" />
+            <SelectField field="over_time" selected="True" description="amount of overtime by each team" />
+            <SelectField field="wip" selected="True" rename="work_in_prog" description="Includes the number of unfinished items for products" />
+            <SelectField field="no_of_style_change" selected="True" description="Number of changes in the style of a particular product" />
+            <SelectField field="incentive" selected="True" description="amount of financial incentive that enables or motivates a particular course of action" />
+            <SelectField field="idle_time" selected="True" description="amount of time when the production was interrupted due to several reasons" />
+            <SelectField field="idle_men" selected="True" description="number of workers who were idle due to production interruption" />
+            <SelectField field="smv" selected="True" rename="allocated_tim_for_a_task" description="Standard Minute Value, it is the allocated time for a task" />
+            <SelectField field="date;quarter;department;day;team;no_of_workers" selected="False" />
+            <SelectField field="Date3" selected="True" />
+            <SelectField field="Date2" selected="True" />
+            <SelectField field="Datec" selected="True" />
+            <SelectField field="jour" selected="True" />
+            <SelectField field="mois" selected="True" />
+            <SelectField field="annee" selected="True" />
+            <SelectField field="Right_day" selected="True" />
+            <SelectField field="Left_Right_day" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Renommage de wip, de team et ajout de description</AnnotationText>
+          <DefaultAnnotationText>Renommage de wip, de team et ajout de description</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="46">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="126" y="666" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Motivation_gwp$`</File>
+          <FormatSpecificOptions>
+            <FirstRowData>False</FirstRowData>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>garments_worker_productivity.xlsx
+Query=`Motivation_gwp$`</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="date" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Motivation_gwp$`" type="V_String" />
+            <Field name="quarter" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Motivation_gwp$`" type="V_String" />
+            <Field name="department" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Motivation_gwp$`" type="V_String" />
+            <Field name="day" size="255" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Motivation_gwp$`" type="V_String" />
+            <Field name="team" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Motivation_gwp$`" type="Double" />
+            <Field name="incentive" source="File: C:\Users\pourI\Desktop\DataManagement\garments_worker_productivity.xlsx|||`Motivation_gwp$`" type="Double" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="48">
+      <GuiSettings>
+        <Position x="630" y="1014" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"department"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText><![CDATA[Nettoyage department
+suppression espace ]]></AnnotationText>
+          <DefaultAnnotationText><![CDATA[Nettoyage department
+suppression espace ]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="2586" y="990" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\pourI\AppData\Local\Temp\Engine_33900_9806eb0e17f3439faaf8ca1bbf3ec12e_\Engine_27916_6a644b73c0624cf8ad94af2a9f784763_.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profil</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="51">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="2466" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="25">C:\Users\pourI\Desktop\DataManagement\Donnéesnettoyees.xlsx|||Feuille1</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <PreserveFormat>False</PreserveFormat>
+            <SkipFieldNames>False</SkipFieldNames>
+            <OutputOption>Create</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <AnnotationText>Exportation pour analyse
+
+Donnéesnettoyees</AnnotationText>
+          <DefaultAnnotationText>Donnéesnettoyees.xlsx
+Query=Feuille1</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="1649" y="173" width="349" height="819" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Jointure des tables</Caption>
+          <Style TextColor="#314c4a" FillColor="#c2bcbf" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="25">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1674" y="318" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="date" />
+                <Field field="quarter" />
+                <Field field="department" />
+                <Field field="day" />
+                <Field field="team" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="date" />
+                <Field field="quarter" />
+                <Field field="department" />
+                <Field field="day" />
+                <Field field="team" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="True" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_date" selected="True" input="Left_" />
+                    <SelectField field="Left_quarter" selected="True" input="Left_" />
+                    <SelectField field="Left_department" selected="True" input="Left_" />
+                    <SelectField field="Left_day" selected="True" input="Left_" />
+                    <SelectField field="Left_team" selected="True" input="Left_" />
+                    <SelectField field="Left_no_of_workers" selected="True" input="Left_" />
+                    <SelectField field="Left_Date3" selected="True" input="Left_" />
+                    <SelectField field="Left_Date2" selected="True" input="Left_" />
+                    <SelectField field="Left_Datec" selected="True" input="Left_" />
+                    <SelectField field="Left_jour" selected="True" input="Left_" />
+                    <SelectField field="Left_mois" selected="True" input="Left_" />
+                    <SelectField field="Left_annee" selected="True" input="Left_" />
+                    <SelectField field="Right_date" selected="False" rename="Right_date" input="Right_" />
+                    <SelectField field="Right_quarter" selected="False" rename="Right_quarter" input="Right_" />
+                    <SelectField field="Right_department" selected="False" rename="Right_department" input="Right_" />
+                    <SelectField field="Right_day" selected="False" rename="Right_day" input="Right_" />
+                    <SelectField field="Right_team" selected="False" rename="Right_team" input="Right_" />
+                    <SelectField field="Right_targeted_productivity" selected="True" input="Right_" />
+                    <SelectField field="Right_actual_productivity" selected="True" input="Right_" />
+                    <SelectField field="*Unknown" selected="False" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Jointure Affectation-Objectif-Réalisation
+
+Jointure interne</AnnotationText>
+              <DefaultAnnotationText>Jointure Affectation-Objectif-Réalisation
+
+Jointure interne</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="31">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1698" y="474" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="date" />
+                <Field field="quarter" />
+                <Field field="department" />
+                <Field field="day" />
+                <Field field="team" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="date" />
+                <Field field="quarter" />
+                <Field field="department" />
+                <Field field="day" />
+                <Field field="team" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_date" selected="False" rename="Right_date" input="Right_" />
+                    <SelectField field="Right_quarter" selected="False" rename="Right_quarter" input="Right_" />
+                    <SelectField field="Right_department" selected="False" rename="Right_department" input="Right_" />
+                    <SelectField field="Right_day" selected="False" rename="Right_day" input="Right_" />
+                    <SelectField field="Right_team" selected="False" rename="Right_team" input="Right_" />
+                    <SelectField field="Left_Right_date" selected="False" rename="Left_Right_date" input="Left_" />
+                    <SelectField field="Left_Right_quarter" selected="False" rename="Left_Right_quarter" input="Left_" />
+                    <SelectField field="Left_Right_department" selected="False" rename="Left_Right_department" input="Left_" />
+                    <SelectField field="Left_Right_day" selected="False" rename="Left_Right_day" input="Left_" />
+                    <SelectField field="Left_Right_team" selected="False" rename="Left_Right_team" input="Left_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Jointure Affectation-Objectif-Réalisation-Gestiontemps
+
+Jointure interne</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="29">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1890" y="414" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\pourI\AppData\Local\Temp\Engine_33900_9806eb0e17f3439faaf8ca1bbf3ec12e_\Engine_27916_9fc55a114e284ede8f087f2ca66236bf_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="34">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1770" y="702" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="date" />
+                <Field field="quarter" />
+                <Field field="department" />
+                <Field field="day" />
+                <Field field="team" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="date" />
+                <Field field="quarter" />
+                <Field field="department" />
+                <Field field="day" />
+                <Field field="team" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Right_date" selected="False" rename="Right_date" input="Right_" />
+                    <SelectField field="Right_quarter" selected="False" rename="Right_quarter" input="Right_" />
+                    <SelectField field="Right_department" selected="False" rename="Right_department" input="Right_" />
+                    <SelectField field="Right_day" selected="True" rename="Right_day" input="Right_" />
+                    <SelectField field="Right_team" selected="False" rename="Right_team" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Jointure Affectation-Objectif-Réalisation-Gestiontemps-Arret-changement
+
+Jointure interne</DefaultAnnotationText>
+              <Left value="True" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="35">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1878" y="558" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\pourI\AppData\Local\Temp\Engine_33900_9806eb0e17f3439faaf8ca1bbf3ec12e_\Engine_27916_7c167282689e4db8b793b5f486f9dc2d_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="32">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1890" y="462" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\pourI\AppData\Local\Temp\Engine_33900_9806eb0e17f3439faaf8ca1bbf3ec12e_\Engine_27916_d342d50fd5f54aaa801263b1daeae901_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="30">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1914" y="330" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\pourI\AppData\Local\Temp\Engine_33900_9806eb0e17f3439faaf8ca1bbf3ec12e_\Engine_27916_5d2b88c90b484f4baac25fcb60f11b53_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="26">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1902" y="270" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\pourI\AppData\Local\Temp\Engine_33900_9806eb0e17f3439faaf8ca1bbf3ec12e_\Engine_27916_c3ba606148624803870390c80fd4ede6_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="39">
+          <GuiSettings>
+            <Position x="1674" y="642" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"date","quarter","department","day","team","no_of_workers","Date3","Date2","Datec","jour","mois","annee","targeted_productivity","actual_productivity","smv","over_time","idle_time","idle_men"</Value>
+              <Value name="Check Box (84)">False</Value>
+              <Value name="Check Box (117)">False</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">False</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+            <Dependencies>
+              <Implicit />
+            </Dependencies>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+            <Position x="1770" y="786" />
+          </GuiSettings>
+          <Properties>
+            <Configuration joinByRecordPos="False">
+              <JoinInfo connection="Left">
+                <Field field="date" />
+                <Field field="quarter" />
+                <Field field="department" />
+                <Field field="day" />
+                <Field field="team" />
+              </JoinInfo>
+              <JoinInfo connection="Right">
+                <Field field="date" />
+                <Field field="quarter" />
+                <Field field="department" />
+                <Field field="day" />
+                <Field field="team" />
+              </JoinInfo>
+              <SelectConfiguration>
+                <Configuration outputConnection="Join">
+                  <OrderChanged value="False" />
+                  <CommaDecimal value="False" />
+                  <SelectFields>
+                    <SelectField field="Left_Right_day" selected="True" rename="Left_Right_day" input="Left_" />
+                    <SelectField field="Right_date" selected="False" rename="Right_date" input="Right_" />
+                    <SelectField field="Right_quarter" selected="False" rename="Right_quarter" input="Right_" />
+                    <SelectField field="Right_department" selected="False" rename="Right_department" input="Right_" />
+                    <SelectField field="Right_day" selected="False" rename="Right_day" input="Right_" />
+                    <SelectField field="Right_team" selected="False" rename="Right_team" input="Right_" />
+                    <SelectField field="*Unknown" selected="True" />
+                  </SelectFields>
+                </Configuration>
+              </SelectConfiguration>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Jointure Affectation-Objectif-Réalisation-Gestiontemps-Motivation
+
+Jointure interne</AnnotationText>
+              <DefaultAnnotationText>Jointure Affectation-Objectif-Réalisation-Gestiontemps-Motivation
+
+Jointure interne</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1902" y="798" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\pourI\AppData\Local\Temp\Engine_33900_9806eb0e17f3439faaf8ca1bbf3ec12e_\Engine_27916_68b8c9c488594a35ba281df6b51f7e4e_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="833" y="0" width="431" height="334" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Extraction des jours et mois</Caption>
+          <Style TextColor="#314c4a" FillColor="#c2bcbf" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="6">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="858" y="157" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeDay([Datec])&#xA;" field="jour" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Extraction du jourde la date jour = DateTimeDay([Datec])
+
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[jour = DateTimeDay([Datec])
+
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="20">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="882" y="75" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\pourI\AppData\Local\Temp\Engine_33900_9806eb0e17f3439faaf8ca1bbf3ec12e_\Engine_27916_38f3d50f82854924a0e8325e565fd239_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="21">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1014" y="149" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeMonth([Datec])" field="mois" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Extraction du mois de la date 
+
+mois = DateTimeMonth([Datec])
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[mois = DateTimeMonth([Datec])
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="22">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1062" y="53" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\pourI\AppData\Local\Temp\Engine_33900_9806eb0e17f3439faaf8ca1bbf3ec12e_\Engine_27916_5e472283c9514e5095fd02b857ac85fc_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="23">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1134" y="150" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="DateTimeYear([Datec])" field="annee" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Extraction de l'année de la date
+
+annee = DateTimeYear([Datec])
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[annee = DateTimeYear([Datec])
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="24">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="1170" y="54" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\pourI\AppData\Local\Temp\Engine_33900_9806eb0e17f3439faaf8ca1bbf3ec12e_\Engine_27916_2606f01308574614913fccd23783078f_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="353" y="0" width="360" height="367" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>Correction du format de la date</Caption>
+          <Style TextColor="#314c4a" FillColor="#c2bcbf" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="5">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="378" y="124" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>date</InputFieldName>
+              <Language>English</Language>
+              <Format>yyyy-dd-MM</Format>
+              <OutputFieldName>Date3</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Permière partie de la conversion
+Convertir date From:
+Personnalisé</AnnotationText>
+              <DefaultAnnotationText>Convertir date From:
+Personnalisé</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="11">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.DateTime.DateTime">
+            <Position x="474" y="161" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <IsFrom value="False" />
+              <InputFieldName>date</InputFieldName>
+              <Language>English</Language>
+              <Format>%m/dd/yyyy</Format>
+              <OutputFieldName>Date2</OutputFieldName>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText>Deuxième partie de la conversion
+Convertir date From:
+Personnalisé
+Convertir date From:
+Personnalisé</AnnotationText>
+              <DefaultAnnotationText>Convertir date From:
+Personnalisé</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDateTime" />
+        </Node>
+        <Node ToolID="16">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="582" y="125" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="[Date3]+ '' +[Date2] " field="Datec" size="1073741823" type="V_WString" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <AnnotationText><![CDATA[Troisième partie: fusion des deux
+Datec = [Date3] + ' ' + [Date2] 
+]]></AnnotationText>
+              <DefaultAnnotationText><![CDATA[Datec = [Date3]+ '' +[Date2] 
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="12">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="618" y="269" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\pourI\AppData\Local\Temp\Engine_33900_9806eb0e17f3439faaf8ca1bbf3ec12e_\Engine_27916_d9847d3cce16442ea000128e20a0d11f_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="17">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="606" y="65" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\pourI\AppData\Local\Temp\Engine_33900_9806eb0e17f3439faaf8ca1bbf3ec12e_\Engine_27916_39f371aec0ac4bddac74b4dcccfbdd61_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+        <Node ToolID="7">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+            <Position x="438" y="53" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <TempFile>C:\Users\pourI\AppData\Local\Temp\Engine_33900_9806eb0e17f3439faaf8ca1bbf3ec12e_\Engine_27916_5cbe0444176d4a28a1901617be0f47a4_.yxdb</TempFile>
+              <TempFileDataProfiling />
+              <Layout>
+                <ViewMode>Single</ViewMode>
+                <ViewSize value="100" />
+                <View1>
+                  <DefaultTab>Profil</DefaultTab>
+                  <Hints>
+                    <Table />
+                  </Hints>
+                </View1>
+                <View2 />
+              </Layout>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="38" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="42" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="43" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="40" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="38" Connection="Output26" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output26" />
+      <Destination ToolID="34" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="39" Connection="Output26" />
+      <Destination ToolID="34" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output26" />
+      <Destination ToolID="25" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="25" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output26" />
+      <Destination ToolID="31" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Join" />
+      <Destination ToolID="31" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="50" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="51" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="48" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="Output26" />
+      <Destination ToolID="47" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Join" />
+      <Destination ToolID="47" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Left" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Right" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="Join" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Join" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="31" Connection="Join" />
+      <Destination ToolID="39" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="34" Connection="Join" />
+      <Destination ToolID="35" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Join" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Join" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="21" Connection="Output" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>ProjetDMdonnées</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="a1e83fc1-729d-425b-8779-26e1044a70aa" />
+      <Telemetry>
+        <PreviousWorkflowId value="36da8897-3c22-443a-8e38-6842fce31dab" />
+        <OriginWorkflowId value="36da8897-3c22-443a-8e38-6842fce31dab" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
